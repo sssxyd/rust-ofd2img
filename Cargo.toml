@@ -1,0 +1,15 @@
+[package]
+name = "ofd2img"
+version = "0.1.0"
+edition = "2024"
+authors = ["xuyd <sssxyd@gmail.com>"]
+repository = "https://github.com/sssxyd/rust-ofd2img"
+license = "Apache-2.0"
+
+[dependencies]
+cairo-rs = { version = "0.20.7", features = ["png"]}
+env_logger = "0.11.7"
+log = { version = "0.4.26", features = ["kv"]}
+serde = { version = "1.0.219", features = ["derive"]}
+serde-xml-rs = "0.6.0"
+zip = "2.5.0"
